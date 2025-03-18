@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Your Name. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a
