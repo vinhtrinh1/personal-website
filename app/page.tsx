@@ -33,8 +33,8 @@ export default function Home() {
           </div>
         </motion.div>
 
-        <h1 className="text-5xl font-bold mb-6 font-space-grotesk text-theme-text">Hey, I'm Your Name</h1>
-        <p className="text-xl text-theme-text mb-8">Data Scientist | Social Activist | Tech for Good</p>
+        <h1 className="text-5xl font-bold mb-6 font-space-grotesk text-theme-text">Ayo it me Vinh</h1>
+        <p className="text-xl text-theme-text mb-8">Tech Bro for Social Impact/p>
         
         {/* Bio Section */}
         <motion.div
@@ -67,7 +67,7 @@ export default function Home() {
       >
         {[
           {
-            title: "Data Analysis",
+            title: "Data",
             icon: FaChartBar,
             description: "Uncovering insights to drive social change",
             color: "text-theme-primary",
@@ -75,13 +75,13 @@ export default function Home() {
           {
             title: "Social Impact",
             icon: FaHandsHelping,
-            description: "Using data science to make a difference",
+            description: "Using critical data inquiry to make a difference",
             color: "text-theme-secondary",
           },
           {
             title: "Innovation",
             icon: FaLightbulb,
-            description: "Developing creative solutions for social good",
+            description: "Developing creative solutions for organizing",
             color: "text-theme-accent",
           },
         ].map((item, index) => (
