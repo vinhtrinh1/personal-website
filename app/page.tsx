@@ -33,8 +33,8 @@ export default function Home() {
           </div>
         </motion.div>
 
-        <h1 className="text-5xl font-bold mb-6 font-space-grotesk text-theme-text">Hey, I'm Your Name</h1>
-        <p className="text-xl text-theme-text mb-8">Data Scientist | Social Activist | Tech for Good</p>
+        <h1 className="text-5xl font-bold mb-6 font-space-grotesk text-theme-text">Ayo it me Vinh</h1>
+        <p className="text-xl text-theme-text mb-8">Ethical Tech Bro</p>
         
         {/* Bio Section */}
         <motion.div
