@@ -13,15 +13,12 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             className="relative w-12 h-12 mb-4 md:mb-0"
           >
-            {/* Stack of textbooks with gradient */}
+            {/* VT with gradient */}
             <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-theme-primary via-theme-secondary to-theme-accent animate-gradient" />
-            <div className="absolute inset-0.5 rounded-lg bg-white">
-              {/* Book spines */}
-              <div className="absolute inset-0 flex flex-col justify-between p-1">
-                <div className="h-1/3 w-full bg-gradient-to-r from-theme-primary/20 to-theme-primary/40 rounded-sm" />
-                <div className="h-1/3 w-full bg-gradient-to-r from-theme-secondary/20 to-theme-secondary/40 rounded-sm" />
-                <div className="h-1/3 w-full bg-gradient-to-r from-theme-accent/20 to-theme-accent/40 rounded-sm" />
-              </div>
+            <div className="absolute inset-0.5 rounded-lg bg-white flex items-center justify-center">
+              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-theme-primary via-theme-secondary to-theme-accent animate-gradient">
+                VT
+              </span>
             </div>
           </motion.div>
           <ul className="flex justify-center space-x-8">
@@ -50,4 +47,3 @@ const Header = () => {
 }
 
 export default Header
-
