@@ -5,38 +5,38 @@ import { Experience, Education } from "@/types"
 
 const experience: Experience[] = [
   {
-    title: "Senior Data Scientist",
-    company: "Social Impact Analytics",
-    period: "2020 - Present",
+    title: "Data Manager",
+    company: "Case Method Institute for Education and Democracy",
+    period: "2024 - Present",
     description: "Leading data-driven initiatives to improve social service delivery and community outcomes.",
   },
   {
-    title: "Data Analyst",
-    company: "Community Development Institute",
-    period: "2018 - 2020",
+    title: "Social Worker",
+    company: "Friends of The Children Boston",
+    period: "2023-2024",
     description: "Developed predictive models for identifying at-risk populations and optimizing resource allocation.",
   },
 ]
 
 const education: Education[] = [
   {
-    degree: "Master of Science in Data Science",
-    school: "University of Technology",
-    period: "2016 - 2018",
-    description: "Specialized in social impact analytics and machine learning applications.",
+    degree: "Dual Masters Degree in Social Work and Education",
+    school: "Boston University",
+    period: "2022 - 2024",
+    description: "Specialized in data and policy analysis.",
   },
   {
-    degree: "Bachelor of Science in Computer Science",
-    school: "State University",
-    period: "2012 - 2016",
-    description: "Focus on data structures, algorithms, and software engineering.",
+    degree: "Bachelor of Science in Psychology and Public Policy",
+    school: "Georgia State University",
+    period: "2015 - 2019",
+    description: "",
   },
 ]
 
 const skills = [
   "Python",
   "R",
-  "SQL",
+  "ArcGIS",
   "Machine Learning",
   "Data Visualization",
   "Project Management",
@@ -54,7 +54,7 @@ export default function ResumePage() {
         className="text-center mb-12"
       >
         <h1 className="text-4xl font-bold mb-4 font-space-grotesk text-theme-text">Resume</h1>
-        <p className="text-xl text-theme-text">Data Scientist & Social Impact Specialist</p>
+        <p className="text-xl text-theme-text">Data Social Worker & Educator</p>
       </motion.div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
