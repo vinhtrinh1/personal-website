@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" })
 
 export const metadata = {
-  title: "Your Name - Data Scientist for Social Impact",
+  title: "Ayo it me Vinh",
   description: "Blog, Resume, and Projects of a Social Activist and Data Scientist",
   generator: 'v0.dev'
 }
